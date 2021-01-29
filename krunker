@@ -12,7 +12,6 @@
 // @run-at        document-start
 // @grant         none
 // @noframes
-// @namespace https://greasyfork.org/users/704479
 // ==/UserScript==
 
 /* eslint-env es6 */
