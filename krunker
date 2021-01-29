@@ -199,13 +199,13 @@ class Skid {
             //Rendering
             showSkidBtn: {
                 pre: "<div class='setHed'>Rendering</div>",
-                name: "Show Skid Button",
+                name: "Show Possible Button",
                 val: true,
                 html: () => this.generateSetting("checkbox", "showSkidBtn", this),
                 set: (value, init) => {
                     let button = document.getElementById("mainButton");
                     if (!button) {
-                        button = this.createButton("5k1D", "https://i.imgur.com/1tWAEJx.gif", this.toggleMenu, value)
+                        button = this.createButton("Possible", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e24ff770303293.5b9f85b588dcb.gif", this.toggleMenu, value)
                     } else button.style.display = value ? "inherit" : "none";
                 }
             },
