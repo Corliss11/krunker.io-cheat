@@ -6,4 +6,5 @@ To Use this cheat you need tampermonkey as an extension
 5. Paste dat thang in there
 6. Save
 7. load into krunker.io
-8. follow instructions
+8. hit F1 or the possible button in the bottom left 
+9. Enjoy baby
