@@ -453,7 +453,7 @@ class Utilities {
                 const menu = window.windows[11];
                 menu.header = "Settings";
                 menu.gen = _ => {
-                    var tmpHTML = `<p style="color:blue'text-align:center'> <a onclick='window.open("https://discord.gg/rt2YeGhMbp/")' class='menuLink'>Possible Paste | v1.72  | By Possible#0001 & Impossible#0001 |</center></a> <hr> </p>`;
+                    var tmpHTML = `<p style="color:blue'text-align:center'> <a onclick='window.open("https://discord.gg/rt2YeGhMbp/")' class='menuLink'>Possible Paste | v1.72  | By Possible#0999 & Impossible#9999 |</center></a> <hr> </p>`;
                     for (const key in this.settings) {
                         if (this.settings[key].pre) tmpHTML += this.settings[key].pre;
                         tmpHTML += "<div class='settName' id='" + key + "_div' style='display:" + (this.settings[key].hide ? 'none' : 'block') + "'>" + this.settings[key].name +
